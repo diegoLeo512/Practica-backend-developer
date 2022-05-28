@@ -11,7 +11,8 @@ def create_tables():
         """CREATE TABLE IF NOT EXISTS books(
                 id_book INTEGER PRIMARY KEY AUTOINCREMENT,
                 name TEXT NOT NULL UNIQUE,
-				creation_date TEXT NOT NULL
+				creation_date TEXT NOT NULL,
+                in_loan INTEGER NOT NULL
             )
             """,
             """CREATE TABLE IF NOT EXISTS loans(

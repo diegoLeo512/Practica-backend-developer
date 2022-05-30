@@ -57,7 +57,6 @@ ruta: /books metodo DELETE #####################################################
     
     Parámetros:
     name -- nombre del libro
-    date -- Fecha de prestamo del libro    
 
 #######################################################################################
 

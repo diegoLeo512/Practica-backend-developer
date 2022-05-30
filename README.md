@@ -45,7 +45,7 @@ ruta: /books' metodo PUT #######################################################
     
     Parámetros:
     name -- nombre del libro
-    date -- Fecha de prestamo del libro    
+    date -- Fecha de prestamo del libro (NULL si es una devolución)    
     
 #######################################################################################
 

@@ -1,11 +1,14 @@
-from asyncio.windows_events import NULL
-from bd_controller import consult_book, modifies_book, delete_book, create_book
+
+from flask import Flask, jsonify, request
+
 from db import create_tables
+from util import *
+from routes import  *
+
+
+
 
 if __name__ == "__main__":
     create_tables()
-    #create_book('prueba 3','11-02-45')
-    #get_book('prueba 3')
-    modifies_book(None,NULL)
-
+    app.run(host='0.0.0.0', port=8000, debug=True)
 
